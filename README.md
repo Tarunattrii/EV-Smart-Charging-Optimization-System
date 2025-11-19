@@ -60,10 +60,6 @@ ev-smart-charging/
    python train_models.py
    ```
 
-## 📌 Project Description (350 Characters)
-
-A Python-based EV Smart Charging system that uses machine learning, routing algorithms, and SQLite databases to predict charging demand, recommend optimal stations, and generate efficient routes. Includes automated data pipelines, backend APIs, and a simple frontend for real-time insights.
-
 ## 📄 License
 
 This project is licensed under the **MIT License**.
