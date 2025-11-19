@@ -1,69 +1,69 @@
-# EV-Smart-Charging-Optimization-System
-A Python-based EV Smart Charging system that uses machine learning, routing algorithms, and SQLite databases to predict charging demand, recommend optimal stations, and generate efficient routes. Includes automated data pipelines, backend APIs, and a simple frontend for real-time insights, and supports scalable EV data analysis and energy planning.
+# ⚡ EV Smart Charging Optimization System
 
-⚡ EV Smart Charging Optimization System
+A Python-based system designed to optimize electric vehicle (EV) charging using machine learning, routing algorithms, and SQLite databases. The project predicts charging demand, recommends optimal charging stations, and generates efficient travel routes using real-world datasets. It includes automated data pipelines, backend APIs, and a lightweight frontend for real-time visualization.
 
-An end-to-end system designed to optimize Electric Vehicle (EV) charging using machine learning, geographic data, routing algorithms, and a modular backend–frontend architecture. The project predicts charging demand, processes large datasets, recommends optimal charging stations, and provides visual outputs for users.
+## 🚀 Features
 
-🚀 Features
+- Machine learning models for EV charging demand prediction  
+- Automated data pipelines for cleaning, transforming, and preparing datasets  
+- Routing engine that identifies the most efficient charging paths using geographic data  
+- SQLite-backed database system for storing charging stations and model outputs  
+- Modular backend providing APIs for predictions, routing, and station details  
+- Simple Python-based frontend for viewing predictions and optimized routes  
+- Scalable architecture suitable for EV data analysis and energy planning  
 
-Machine Learning Models for EV charging demand prediction
+## 🛠️ Tech Stack
 
-Automated Data Pipeline for data cleaning, preprocessing, and model training
+- **Python**  
+- **Machine Learning (scikit-learn, pandas, numpy)**  
+- **SQLite**  
+- **REST API (custom backend)**  
+- **Geographic routing algorithms**  
 
-Backend API System to serve predictions, station details, and optimized routes
+## 📁 Project Structure
 
-Routing Engine that selects efficient travel paths and charging stations using geographic datasets
-
-SQLite Database Integration for storing charging stations, routing data, and processed results
-
-Lightweight Frontend Interface built in Python for visualizing predictions and station details
-
-Model Training Scripts to retrain/refresh ML models as new data becomes available
-
-🗂️ Project Structure
+```
 ev-smart-charging/
-│── app_backend.py          # Backend API handling requests
-│── app_frontend.py         # Simple frontend interface
-│── data_pipeline.py        # Data cleaning & preprocessing pipeline
-│── train_models.py         # ML model training script
-│── ml_models/              # Saved trained machine learning models
-│── routing_provider.py     # Routing and path optimization logic
-│── database.py             # Database creation & connection methods
+│── app_backend.py          # Backend API handling system requests
+│── app_frontend.py         # Lightweight frontend visualizing outputs
+│── data_pipeline.py        # Data cleaning and preprocessing workflow
+│── train_models.py         # Machine learning model training script
+│── routing_provider.py     # Routing and path optimization engine
+│── database.py             # Database schema & connectivity logic
 │── ev_charging.db          # Main SQLite database
 │── data/                   # Raw datasets
-│── exported_data/          # Cleaned / processed datasets
-│── How to run.txt          # Running instructions
-│── requirements.txt        # Dependencies
+│── exported_data/          # Processed datasets
+│── ml_models/              # Stored ML models
+│── requirements.txt        # Project dependencies
+│── How to run.txt          # Instructions for running the app
+```
 
-🧠 Machine Learning Components
+## ▶️ How to Run
 
-Preprocessing and cleaning of EV charging datasets
+1. Install dependencies:  
+   ```
+   pip install -r requirements.txt
+   ```
 
-Model training for future charging demand prediction
+2. Run the backend server:  
+   ```
+   python app_backend.py
+   ```
 
-Time-based and location-based feature engineering
+3. Start the frontend interface:  
+   ```
+   python app_frontend.py
+   ```
 
-Automated pipeline for updating and saving new models
+4. (Optional) Retrain machine learning models:  
+   ```
+   python train_models.py
+   ```
 
-🧭 Routing & Optimization
+## 📌 Project Description (350 Characters)
 
-Uses geographic datasets from California region
+A Python-based EV Smart Charging system that uses machine learning, routing algorithms, and SQLite databases to predict charging demand, recommend optimal stations, and generate efficient routes. Includes automated data pipelines, backend APIs, and a simple frontend for real-time insights.
 
-Computes nearest charging stations
+## 📄 License
 
-Optimizes routes using custom algorithms
-
-Provides recommended station + estimated travel & charging impact
-
-🗄️ Database
-
-Uses SQLite for fast and lightweight storage:
-
-Charging station details
-
-Geographic mappings
-
-Cleaned datasets
-
-Model outputs and logs
+This project is licensed under the **MIT License**.
