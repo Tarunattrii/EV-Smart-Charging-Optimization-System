@@ -63,3 +63,6 @@ ev-smart-charging/
 ## 📄 License
 
 This project is licensed under the **MIT License**.
+
+
+Developed By; Tarun Attri, Harshit Pathak, Saiyam Jain, Rajdeep Chaudhary
